@@ -3,7 +3,8 @@
 
 #### - [intro]()
 #### - [notes]()
+#### - [teaching]()
 #### - [contact]()
-#### - [location](https://www.google.com)
+#### - [location]()
 
 _SITE IS UNDER DEVELOPEMENT_

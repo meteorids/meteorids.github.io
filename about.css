@@ -1,0 +1,54 @@
+
+/* Main Section */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    padding: 40px;
+    height: auto;
+    font-size: 18px;
+    min-height: 80%;
+    margin-bottom: -80px;
+}
+
+
+
+.aboutme {
+    text-align: justify;
+    word-spacing: 0.2em;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+
+.aboutme p {
+    padding-bottom: 10px;
+}
+
+.aboutme a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+
+.aboutme img {
+    height: 80px;
+    width: auto;
+    padding-bottom: 20px;
+    
+
+}
+.photo {
+    width: auto;
+    height: 450px;
+    padding-top: 40px;
+}
+
+
+
+

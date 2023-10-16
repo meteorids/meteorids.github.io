@@ -20,10 +20,16 @@
     word-spacing: 0.2em;
     line-height: 1.5em;
     padding-bottom: 10px;
+    width: 50%;
 }
 
 .aboutme p {
     padding-bottom: 10px;
+}
+
+.quote a {
+    text-decoration: none;
+    color: black;
 }
 
 .resume {
@@ -35,8 +41,6 @@
     border-radius: 8px;
 }
 
-
-
 .aboutme img {
     height: 80px;
     width: auto;
@@ -44,12 +48,10 @@
     
 
 }
+
 .photo {
     width: auto;
     height: 450px;
     padding-top: 40px;
 }
-
-
-
 

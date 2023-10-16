@@ -1,0 +1,27 @@
+
+/* Main Section */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    padding: 40px;
+    height: auto;
+    font-size: 18px;
+    min-height: 80%;
+    margin-bottom: -80px;
+}
+
+.aboutme {
+    text-align: justify;
+    word-spacing: 0.2em;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+.aboutme p {
+    padding-bottom: 10px;
+}
+

@@ -26,7 +26,12 @@
     padding-bottom: 10px;
 }
 
-.aboutme a {
+.quote a {
+    text-decoration: none;
+    color: black;
+}
+
+.resume {
     background-color: black;
     color: white;
     text-decoration: none;
@@ -34,6 +39,7 @@
     padding: 10px 20px;
     border-radius: 8px;
 }
+
 
 
 .aboutme img {

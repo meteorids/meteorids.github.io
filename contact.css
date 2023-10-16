@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     margin-left: -10px;
-    width: 70%;
 }
 
 .buttons a {
@@ -30,24 +29,20 @@
     margin-bottom: -80px;
 }
 
+
+
 .aboutme {
     text-align: justify;
     word-spacing: 0.2em;
     line-height: 1.5em;
     padding-bottom: 10px;
-    width: 50%;
 }
 
 .aboutme p {
     padding-bottom: 10px;
 }
 
-.quote a {
-    text-decoration: none;
-    color: black;
-}
-
-.aboutme a{
+.aboutme a {
     background-color: black;
     color: white;
     text-decoration: none;
@@ -56,6 +51,7 @@
     border-radius: 8px;
 }
 
+
 .aboutme img {
     height: 80px;
     width: auto;
@@ -63,10 +59,8 @@
     
 
 }
-
 .photo {
     width: auto;
     height: 450px;
     padding-top: 40px;
 }
-

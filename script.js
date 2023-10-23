@@ -62,3 +62,16 @@ function backResearchgateText() {
 researchgateButton.addEventListener('mouseover', changeResearchgateText);
 
 researchgateButton.addEventListener('mouseout', backResearchgateText);
+
+
+// Toggle navbar
+
+
+function toggleNav() {
+    let x = document.getElementById("mobilelinks");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  } 

@@ -158,20 +158,17 @@ footer {
     padding: 0px 10px 0px 10px;
 }
 
-
-
 /* About Page */
 
 .aboutmain {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     text-align: left;
     padding: 40px;
     height: auto;
     font-size: 18px;
-    min-height: 80%;
-    margin-bottom: -80px;
 }
 
 .abouttext {
@@ -179,10 +176,12 @@ footer {
     word-spacing: 0.2em;
     line-height: 1.5em;
     padding-bottom: 10px;
+    padding-right: 20px;
 }
 
 .abouttext p {
     padding-bottom: 20px;
+    font-size: 18px;
 }
 
 .resume {
@@ -202,9 +201,8 @@ footer {
 
 .aboutimg img {
     width: auto;
-    height: 450px;
+    height: 400px;
     padding-top: 40px;
-    padding-left: 20px;
 }
 
 /* Research Page */
@@ -480,6 +478,69 @@ footer {
 
 /* About Page */
 
+@media only screen and (max-width: 1170px) {
+
+    .aboutimg img {
+        height: 350px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .aboutimg img {
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .abouttext p {
+        font-size: 17px;
+    }
+
+    .abouttitle img {
+        height: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 535px) {
+
+    .abouttext p {
+        padding-bottom: 0px;
+    }
+
+    .abouttitle img {
+        height: 60px;
+    }
+
+    .aboutmain {
+        padding: 20px;
+    }
+    
+    .abouttext {
+        padding: 0px;
+    }
+
+    .aboutimg img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+
+    .indextext p {
+       font-size: 16px;
+    }
+
+    .resume {
+        font-size: 16px;
+    }
+}
+
+    
 
 
 

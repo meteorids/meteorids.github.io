@@ -1,0 +1,446 @@
+body {
+    font-family: 'AR One Sans';
+    color: #000000;
+    margin: 0;
+}
+
+
+/* Header section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 17px;
+    background-color: #9ED2BE;
+}
+
+.namerec {
+    text-align: left;
+    background-color: #3C6255;
+    color: #FFFFDD;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header h2 {
+    font-size: 18px;
+    padding-left: 3px;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background-color: #fd4d3f;
+    border-radius: 100px;
+    transition-property: border-radius;
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px 10px 10px;
+}
+
+#circle:hover {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 60px;
+    font-size: 24px;
+    transform: rotate(-90deg);
+}
+
+nav li {
+    list-style-type: none;
+    background-color:#FFFFDD;
+    padding: 10px 15px 15px 15px;
+    border-radius: 10px;
+}
+
+nav li:hover {
+    color:#FFFFDD;
+    background-color: #3C6255;
+}
+
+
+
+/* Main Section */
+
+/* Projects Section */
+
+.projects {
+    padding: 40px 0px;
+    background-color:#ffd9b7;
+}
+
+.project {
+    display: flex;
+}
+
+.projectrec {
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+}
+
+.project h3 {
+    font-size: 32px;
+    background-color: #C8E4B2;
+    border-radius: 10px;
+    padding: 3px 10px 10px 10px;
+}
+
+.project p {
+    font-size: 18px;
+}
+
+.projectrecimg {
+    width: 100%;
+    height: 100%;
+    background-color:#ffd9b7;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img1 {
+    background-image: url(./images/photo1.jpg)
+}
+
+#img2 {
+    background-image: url(./images/photo1.jpg);
+}
+
+/* Info Section */
+
+.info {
+    background-color: #FFFFDD;
+}
+
+.infos {
+    display: flex;
+    padding: 40px 0px;
+}
+
+.inforec {
+    width: 40%;
+    height: 400px;
+    padding: 20px;
+}
+
+
+.info h3 {
+    font-size: 32px;
+    background-color: #C8E4B2;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+.resumerec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 400px;
+    padding: 20px;
+}
+
+.resumerec a {
+    text-decoration: none;
+    color: black;
+    font-family: 'AR One Sans';
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FFD9B7;
+    transform: rotate(-90deg);
+    width: 255px;
+    height: 75px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 10px 10px;
+
+}
+
+.resumerec a:hover {
+    background-color: #fd4d3f;
+    color:#FFD9B7;
+}
+
+.inforecimg {
+    width: 100%;
+    height: 100%;
+    background-color:#FFFFDD;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./images/profile.jpg)
+}
+
+
+/* Contact Section */
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    background-color: #9ED2BE;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    font-family: 'AR One Sans';
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FFFFDD;
+    transform: rotate(-90deg);
+    width: 255px;
+    height: 75px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px 10px 10px;
+}
+
+.contact a:hover {
+    color:#FFFFDD;
+    background-color: #3C6255;
+}
+
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 1300px) {
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    nav a {
+        padding: 30px;
+    }
+
+    #circle {
+        width: 80px;
+        height: 80px;
+        font-size: 14px;
+        padding: 6px 10px 10px 10px;
+    }
+}
+
+
+@media only screen and (max-width: 975px) {
+
+    #circle {
+        display: none;
+    }
+
+    nav a {
+        padding: 25px;
+     }
+
+    nav {
+        padding: 0px;
+     }
+    
+     .project p, .info p{
+        font-size: 16px;
+     }
+ }
+
+
+ @media only screen and (max-width: 830px) {
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .projects {
+        padding: 10px 0px;
+    }
+
+    .projectrec {
+        padding :10px;
+    }
+
+    .infos {
+        padding: 10px 0px;
+    }
+
+    .inforec {
+        padding: 10px;
+    }
+
+    .resumerec {
+        padding: 0px;
+    }
+
+    .project h3, .info h3 {
+        font-size: 28px;
+    }
+
+    .contact {
+        padding: 100px;
+    }
+
+    .contact a, .resumerec a {
+        width: 255px;
+        height: 75px;
+        font-size: 20px;
+    }
+ }
+
+
+ @media only screen and (max-width: 710px) {
+    
+    header {
+        display: block;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .namerec {
+        padding: 20px 0px 20px 0px;
+    }
+
+    header h1, h2 {
+        text-align: center;
+    }
+
+    nav {
+        justify-content: space-around;
+        padding: 40px;
+    }
+
+    .projects {
+        padding: 10px
+    }
+
+    .project {
+        display: block;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .projectrec {
+        width: 100%;
+        height: 200px;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .project h3, .info h3 {
+        font-size: 24px;
+    }
+
+    .project p {
+        font-size: 14px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .info {
+        padding: 10px;
+    }
+
+    .infos {
+        display: block;
+        padding: 10x 0px 10px 0px;
+        width: 100%;
+    }
+
+    .inforec {
+        width: 100%;
+        height: 200px;
+        padding: 10px 0px 10px 0px;
+        background-position: center;
+    }
+
+    .resumerec {
+        width: 100%;
+        height: 100px;
+        padding: 0px;
+    }
+
+    .inforec p {
+        font-size: 14px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .resumerec a {
+        transform: none;
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .inforecimg {
+        background-position: center;
+    }
+
+    .contact a {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+ }
+
+
+ @media only screen and (max-width: 590px) {
+
+    .projectrec, .inforec {
+        height: 250px;
+    }
+
+ }
+
+
+ @media only screen and (max-width: 450px) {
+
+    .projectrec, .inforec {
+        height: 300px;
+    }
+
+    .contact {
+        padding: 50px;
+    }
+
+ }
+
+
+ @media only screen and (max-width: 350px) {
+
+    nav a{
+        font-size: 16px;
+    }
+
+    .contact a {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+ }

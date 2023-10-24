@@ -525,19 +525,47 @@ footer {
     }
 
     .aboutimg img {
-        height: 250px;
+        height: 280px;
     }
 }
 
 @media only screen and (max-width: 535px) {
 
-    .indextext p {
-       font-size: 16px;
+    .abouttext p {
+        padding-bottom: 0px;
+        font-size: 16px;
     }
 
     .resume {
         font-size: 16px;
     }
+
+    .aboutimg img {
+        height: 250px;
+    }
+
+    #del {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .aboutimg img {
+        height: 225px;
+    }
+
+    .abouttext p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .aboutimg img {
+        height: 200px;
+    }
+
 }
 
     

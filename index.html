@@ -1,8 +1,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css" type="text/css">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./script.js" async ></script>
     <title>meteorids</title>
 </head>
 <body>
@@ -10,31 +11,66 @@
     <!--Header Section-->
 
     <header>
-        <p><a href="./index.html">meteorids<span>&#174</span></a></p>
+
+        <!-- Desktop Header-->
+
+        <div class="logo">
+            <p><a href="./index.html">meteorids<span>&#174</span></a></p>
+        </div>
+        
+        <nav class="desktopnav">
+            <a href="./about.html">About</a>
+            <a href="./research.html">Research</a>
+            <a href="./teaching.html">Teaching</a>
+            <a href="./contact.html">Contact</a>
+            <!-- <a href="#">Misc</a> -->
+        </nav>
+
+        <!-- Mobile Header-->
+
+        <nav class="mobilenav">
+
+            <a id="mobilelogo" href="./index.html">meteorids<span>&#174</span></a>
+
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <div id="mobilelinks">
+
+                <a href="./about.html">About</a>
+                <a href="./research.html">Research</a>
+                <a href="./teaching.html">Teaching</a>
+                <a href="./contact.html">Contact</a>
+
+            </div>
+        </nav>
+
     </header>
-    <nav>
-        <a href="./about.html">About</a>
-        <a href="./research.html">Research</a>
-        <a href="./teaching.html">Teaching</a>
-        <a href="./contact.html">Contact</a>
-        <a href="#">Misc</a>
-    </nav>
 
     <!--Main Section-->
 
-    <div class="main">
-        <div class="introduction">
+    <div class="indexmain">
+
+        <div class="indextext">
+
             <h1>Hi! I am Milos</h1>
             <p>I am a physicist focused on radiative transfer, <br> atmospheric physics, remote sensing, <br> aerosols, ozone and instrumentation.</p>
             <a href="./about.html">Read more</a>
+            
         </div>
-        <img src="./resources/images/intro2.png" alt="">
+
+        <div class="indeximg">
+            <img src="./resources/images/intro2.png" alt="">
+
+        </div>
+        
     </div>
 
     <!--Footer Section-->
 
     <footer>
-        <p>2023</p>
+        <p id="year"></p>
     </footer>
 </body>
 </html>

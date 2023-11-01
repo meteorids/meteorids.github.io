@@ -211,7 +211,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    text-align: left;
+    text-align: justify;
     padding: 40px;
     height: auto;
 }

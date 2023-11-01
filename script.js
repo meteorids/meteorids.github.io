@@ -2,7 +2,9 @@
 
 document.getElementById('year').innerHTML = new Date().getFullYear();
 
+
 // Changing button's text by hovering on contact site
+
 
 let emailButton = document.getElementById('email');
 
@@ -61,7 +63,7 @@ function backResearchgateText() {
 
 researchgateButton.addEventListener('mouseover', changeResearchgateText);
 
-researchgateButton.addEventListener('mouseout', backResearchgateText);
+researchgateButton.addEventListener('mouseout', backResearchgateText); 
 
 
 // Toggle navbar
@@ -74,4 +76,4 @@ function toggleNav() {
   } else {
     x.style.display = "flex";
   }
-} 
+}

@@ -43,7 +43,7 @@ function changeLinkedinText() {
 }
 
 function backLinkedinText() {
-    linkedinButton.innerHTML = 'linkdin'; 
+    linkedinButton.innerHTML = 'linkedin'; 
 } 
 
 linkedinButton.addEventListener('mouseover', changeLinkedinText);
@@ -63,7 +63,7 @@ function backResearchgateText() {
 
 researchgateButton.addEventListener('mouseover', changeResearchgateText);
 
-researchgateButton.addEventListener('mouseout', backResearchgateText); 
+researchgateButton.addEventListener('mouseout', backResearchgateText);
 
 
 // Toggle navbar

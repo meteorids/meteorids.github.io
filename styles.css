@@ -326,6 +326,14 @@ footer {
     font-size: 20px;
 }
 
+.button:hover span {
+    display: none;
+}
+
+.button:hover:before {
+    content: attr(data-hovertext);
+}
+
 .contactimg img {
     width: auto;
     height: 400px;

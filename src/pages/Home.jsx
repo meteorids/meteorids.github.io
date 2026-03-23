@@ -1,4 +1,7 @@
+import { lazy, Suspense } from 'react'
 import { Link } from 'react-router-dom'
+
+const SierpinskiTetrahedron = lazy(() => import('../components/SierpinskiTetrahedron'))
 
 export default function Home() {
   return (
@@ -44,17 +47,13 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Hero image */}
+          {/* 3D Sierpinski Tetrahedron */}
           <div className="flex-shrink-0 opacity-0 animate-fade-up stagger-3">
             <div className="relative">
-              {/* Glow behind image */}
-              <div className="absolute inset-0 bg-accent/5 blur-3xl rounded-full scale-150" />
-              <img
-                src="/images/intro2.png"
-                alt="ASCII art pattern"
-                className="relative ascii-title w-64 sm:w-72 lg:w-80 h-auto"
-                draggable={false}
-              />
+              <div className="absolute inset-0 bg-accent/5 blur-3xl rounded-full scale-150 pointer-events-none" />
+              <Suspense fallback={<div className="w-64 sm:w-72 lg:w-80 aspect-square" />}>
+                <SierpinskiTetrahedron />
+              </Suspense>
             </div>
           </div>
 
